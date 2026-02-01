@@ -1,0 +1,21 @@
+{
+  "name": "C. elegans Connectome",
+  "description": "Complete neural wiring of the nematode C. elegans",
+  "category": "biological",
+  "parameters": {
+    "S": 0.70,
+    "D": 0.40,
+    "M": 0.30
+  },
+  "metadata": {
+    "nodes": 302,
+    "node_type": "neurons",
+    "edge_type": "synapses",
+    "edges": 7000
+  },
+  "expected": {
+    "cognitive": true,
+    "universality_class": "grammar_structural"
+  },
+  "notes": "First complete connectome ever mapped. Clear hub-and-spoke topology with command neurons acting as hubs. Grammar-structural class despite small size."
+}

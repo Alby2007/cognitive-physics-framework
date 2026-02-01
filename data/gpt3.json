@@ -1,0 +1,22 @@
+{
+  "name": "GPT-3",
+  "description": "Large language model (175B parameters)",
+  "category": "artificial",
+  "parameters": {
+    "S": 0.40,
+    "D": 0.90,
+    "M": 0.20
+  },
+  "metadata": {
+    "nodes": 175000000000,
+    "node_type": "parameters",
+    "architecture": "transformer",
+    "layers": 96,
+    "attention_heads": 96
+  },
+  "expected": {
+    "cognitive": true,
+    "universality_class": "dense_dynamical"
+  },
+  "notes": "Dense-dynamical class. Low structural differentiation (uniform attention) compensated by high causal density. Emergent capabilities at scale."
+}

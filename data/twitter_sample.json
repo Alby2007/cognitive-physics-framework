@@ -1,0 +1,21 @@
+{
+  "name": "Twitter/X Network",
+  "description": "Social media follower graph sample",
+  "category": "social",
+  "parameters": {
+    "S": 0.90,
+    "D": 0.20,
+    "M": 0.05
+  },
+  "metadata": {
+    "nodes": 300000000,
+    "node_type": "users",
+    "edge_type": "follows",
+    "power_law_exponent": 2.1
+  },
+  "expected": {
+    "cognitive": true,
+    "universality_class": "fast_propagation"
+  },
+  "notes": "Fast-propagation class. Extreme power-law distribution (influencers as hubs). Viral dynamics with short memory (trending topics decay quickly)."
+}
